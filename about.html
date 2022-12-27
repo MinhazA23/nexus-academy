@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Nexus academy</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Rubik+Puddles&family=Source+Sans+Pro:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/84e997a478.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/website logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="articles.html">ARTICLES</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+
+    </section>
+
+    <section class="about-us">
+
+        <div class="row">
+            <div class="about-col">
+                <h1>Creating World Champions</h1>
+                <p>Nexus Academy is the largest global esports institution, known for its high-quality training programs and modern facilities. It offers a range of courses taught by experienced coaches and hosts tournaments and events. Its commitment to excellence and dedication to the esports community make it a top destination for those looking to elevate their professional career.
+                    Bugha attended Nexus Academy, where he excelled thanks to the top-of-the-line facilities, expert coaches, and rigorous training schedule. He earned a spot on the school's competitive team and, together, they dominated local and regional tournaments. Bugha's consistent performance throughout the year earned him the 2019 esports player of the year award. He credits Nexus Academy for his success and vows to continue representing the school with pride.
+                </p>
+                <a href="" class="press-btn blue-btn">EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+                    <img src="images/bugha new website.png">
+                </div>
+            </div>
+    </section>
+
+
+
+
+
+<!--FOOTER-->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Nexus academy's professional esports course provides aspiring esports athletes with the skills and strategies needed to succeed. Led by expert instructors and featuring personalised coaching and a supportive community, <br>this comprehensive course covers all aspects of professional gaming.</p>
+    <div class="icons">
+        <a href="https://www.twitter.com"target="_blank">
+        <i class="fa fa-twitter"></i>
+        </a>
+        <a href="https://www.linkedin.com"target="_blank">
+        <i class="fa fa-linkedin"></i>
+        </a>
+        <a href="https://www.instagram.com"target="_blank">
+        <i class="fa fa-instagram"></i>
+        </a>
+        <a href="https://www.youtube.com"target="_blank">
+        <i class="fa fa-youtube"></i>
+        </a>
+        <p>Made by Minhaz
+    <div>
+        <i class="fa-solid fa-star-of-life"></i></p>
+     </div>
+    </div>
+</section>
+
+<!--JS FUNCTIONALITY-->
+
+<script>
+    
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+</body>
+</html>

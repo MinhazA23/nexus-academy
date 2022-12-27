@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Nexus academy</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Rubik+Puddles&family=Source+Sans+Pro:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/84e997a478.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/website logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="articles.html">ARTICLES</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Achievements & Titles</h1>
+    </section>
+
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="images/sentinels award website.png">
+                <h2>Our Achievements & Titles</h2>
+                <p>Since its inception, Nexus Academy has established itself as the premier destination for gamers of all levels. From its state-of-the-art facilities and expert coaching staff to its comprehensive training programs and cutting-edge equipment, Nexus Academy has everything a gamer could need to succeed.<br><br>
+                    The academy's success can be seen in the numerous accolades and achievements of its students. Many of the top esports athletes in the world got their start at Nexus Academy, and the school's competitive teams consistently dominate regional and international tournaments.<br><br>
+                    The success of Nexus Academy is not limited to just its students. The academy has also attracted top sponsors and partners from the gaming industry, further solidifying its reputation as the leader in the field.<br><br>
+                    The future looks bright for Nexus Academy. With its commitment to excellence and dedication to the growth and development of the gaming community, the institution shows no signs of slowing down. As the world's largest gaming institution, Nexus Academy is poised to continue setting the bar for others to follow.</p>
+                
+                    <div class="comment-box">
+
+                        <h3>Leave a comment</h3>
+                        <form class="comment-form">
+                            <input type="text" placeholder="Enter Name">
+                            <input type="email" placeholder="Enter Email">
+                            <textarea rows="5" placeholder="Your comment"></textarea>
+                            <button type="submit" class="press-btn blue-btn">POST COMMENT</button>
+                        </form>
+
+                    </div>
+
+                </div>
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>International Titles</span>
+                    <span>3</span>
+                </div>
+                <div>
+                    <span>Players Of The Year</span>
+                    <span>2</span>
+                </div>
+                <div>
+                    <span>Fortnite Titles</span>
+                    <span>8</span>
+                </div>
+                <div>
+                    <span>Sponsorships</span>
+                    <span>6</span>
+                </div>
+                <div>
+                    <span>2022 Award Nominees</span>
+                    <span>14</span>
+                </div>
+                <div>
+                    <span>VCT Titles</span>
+                    <span>5</span>
+                </div>
+                <div>
+                    <span>Regional Titles</span>
+                    <span>28</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+<!--FOOTER-->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Nexus academy's professional esports course provides aspiring esports athletes with the skills and strategies needed to succeed. Led by expert instructors and featuring personalised coaching and a supportive community, <br>this comprehensive course covers all aspects of professional gaming.</p>
+    <div class="icons">
+        <a href="https://www.twitter.com"target="_blank">
+        <i class="fa fa-twitter"></i>
+        </a>
+        <a href="https://www.linkedin.com"target="_blank">
+        <i class="fa fa-linkedin"></i>
+        </a>
+        <a href="https://www.instagram.com"target="_blank">
+        <i class="fa fa-instagram"></i>
+        </a>
+        <a href="https://www.youtube.com"target="_blank">
+        <i class="fa fa-youtube"></i>
+        </a>
+        <p>Made by Minhaz
+    <div>
+        <i class="fa-solid fa-star-of-life"></i></p>
+     </div>
+    </div>
+</section>
+
+<!--JS FUNCTIONALITY-->
+
+<script>
+    
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+</body>
+</html>
